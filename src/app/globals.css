@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-bg: #070146;
+  --primary-text-color: #fff;
+  --secondary-bg: #8a82e1;
+  --secondary-text-color: #ffffff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header,
+main,
+section {
+  margin-bottom: 2em;
+}
